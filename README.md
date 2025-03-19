@@ -1,6 +1,6 @@
-# Traffic_Predictor
-Traffic Predictor Machine learning model which predicts the traffic of New-York city using traffic data, weather conditions and scrapped data from social media about traffic.   
+## Traffic Predictor Project Structure
 
+```
 Traffic_Predictor/
 │-- data/                # Raw and processed datasets
 │-- notebooks/           # Jupyter notebooks for EDA 
@@ -10,3 +10,14 @@ Traffic_Predictor/
 │-- docs/                # Documentation and reports
 │-- scripts/             # Automation scripts (scraping, data updates)
 │-- requirements.txt     # Dependencies
+```
+
+### Directory Descriptions
+- **data/**: Contains raw datasets, cleaned data, and preprocessed files.
+- **notebooks/**: Jupyter notebooks used for exploratory data analysis (EDA) and experiments.
+- **src/**: Source code for data processing, feature engineering, and model training.
+- **models/**: Stores trained models, checkpoints, and serialized versions for deployment.
+- **reports/**: Includes visualizations, performance metrics, and analytical summaries.
+- **docs/**: Documentation, project reports, and references.
+- **scripts/**: Automation scripts for tasks such as data scraping and periodic updates.
+- **requirements.txt**: List of dependencies required to run the project.
