@@ -15,69 +15,69 @@
 ## 2. Speed Prediction (With Lag Features)
 
 ### **CatBoost**
-- **RMSE**: 0.0109  
-- **MSE**: 0.0001  
-- **MAE**: 0.0070  
-- **Median Absolute Error**: 0.0047  
-- **R² Score**: 0.9967  
-- **Response Time**: 0.0301 sec  
+- **RMSE**: 0.0122  
+- **MSE**: 0.0002  
+- **MAE**: 0.0076  
+- **Median Absolute Error**: 0.0049  
+- **R² Score**: 0.9938  
+- **Response Time**: 0.0227 sec  
 
 ### **LightGBM**
-- **RMSE**: 0.0100  
-- **MAE**: 0.0070  
-- **R² Score**: 0.9972  
-- **Response Time**: 0.1787 sec  
+- **RMSE**: 0.0097  
+- **MAE**: 0.0001  
+- **R² Score**: 0.9961  
+- **Response Time**: 0.0509 sec  
 
 ### **Random Forest**
-- **RMSE**: 0.0103  
+- **RMSE**: 0.0086  
 - **MAE**: 0.0046  
-- **R² Score**: 0.9971  
-- **Response Time**: 0.9014 sec  
+- **R² Score**: 0.9970  
+- **Response Time**: 0.7228 sec  
 
 ### **XGBoost**
-- **RMSE**: 0.0113  
-- **MAE**: 0.0078  
-- **R² Score**: 0.9965  
-- **Response Time**: 0.0787 sec  
+- **RMSE**: 0.0116  
+- **MAE**: 0.0082  
+- **R² Score**: 0.9945  
+- **Response Time**: 0.0365 sec  
 
 ---
 
 ## 3. Travel Time Prediction (With Lag Features)
 
 ### **CatBoost**
-- **RMSE**: 0.0156  
+- **RMSE**: 0.0122  
 - **MSE**: 0.0002  
-- **MAE**: 0.0082  
-- **Median Absolute Error**: 0.0039  
-- **R² Score**: 0.9919  
-- **Response Time**: 0.0299 sec  
+- **MAE**: 0.0076  
+- **Median Absolute Error**: 0.0049  
+- **R² Score**: 0.9938  
+- **Response Time**: 0.0227 sec  
 
 ---
 
 ## 4. Speed Prediction (Without Lag Features)
 
-- **RMSE**: 0.1261  
-- **MSE**: 0.0159  
-- **MAE**: 0.0950  
-- **Median Absolute Error**: 0.0744  
-- **R² Score**: 0.5593  
-- **Response Time**: 0.0210 sec  
+- **RMSE**: 0.1412  
+- **MSE**: 0.0199  
+- **MAE**: 0.0989  
+- **Median Absolute Error**: 0.0682  
+- **R² Score**: 0.1815  
+- **Response Time**: 0.0037 sec  
 
 ---
 
 ## 5. Travel Time Prediction (Without Lag Features)
 
-- **RMSE**: 0.1333  
-- **MSE**: 0.0178  
-- **MAE**: 0.0908  
-- **Median Absolute Error**: 0.0582  
-- **R² Score**: 0.4063  
-- **Response Time**: 0.0410 sec  
+- **RMSE**: 0.1518  
+- **MSE**: 0.0230  
+- **MAE**: 0.1047  
+- **Median Absolute Error**: 0.0711  
+- **R² Score**: 0.1388  
+- **Response Time**: 0.0041 sec 
 
 ### Other Models:
 | Model         | RMSE   | MSE    | MAE    | MedianAE | R²    | Response Time |
 |---------------|--------|--------|--------|----------|--------|----------------|
-| LightGBM      | 0.1402 | 0.0196 | 0.1067 | 0.0833   | 0.4558 | 0.0908 sec     |
-| RandomForest  | 0.1380 | 0.0190 | 0.1036 | 0.0796   | 0.4723 | 0.4704 sec     |
-| XGBoost       | 0.1366 | 0.0187 | 0.1031 | 0.0801   | 0.4831 | 0.0463 sec     |
+| LightGBM      | 0.1459 | 0.0213 | 0.1045 | 0.0745   | 0.1263 | 0.0402 sec     |
+| RandomForest  | 0.1524 | 0.0190 | 0.1036 | 0.0796   | 0.4723 | 0.4704 sec     |
+| XGBoost       | 0.1556 | 0.0242 | 0.1148 | 0.0863   | 0.0058 | 0.0183 sec     |
 
