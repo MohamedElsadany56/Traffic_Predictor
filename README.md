@@ -1,3 +1,5 @@
+![traffic](/traffic.jpg)
+
 ## 🔄 Pipeline Overview
 
 ### 1. **Data Collection**
@@ -92,8 +94,8 @@ Each model was trained with and without lag features to assess temporal dependen
 
 ## 🙌 Acknowledgments
 
-We would like to thank:
-- **Prof. Sahar Selim** and **TA Amira Tarek** for their guidance in the Machine Learning course.
+I would like to thank:
+- **Prof. Sahar Selim** and **TA Amira Tarek** for their guidance in our Machine Learning course.
 - Team Members: **Abdullah Yasser**, **Abdelrahman Alsamany**, and **Mona Gomaa**.
 
 ---
